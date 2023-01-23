@@ -1,0 +1,5 @@
+
+<app-new-book (newBook)="newBooks($event)"></app-new-book>
+<div class="allBooks">
+<app-books *ngFor="let book of arrayBooks" [book]="book"></app-books>
+</div>

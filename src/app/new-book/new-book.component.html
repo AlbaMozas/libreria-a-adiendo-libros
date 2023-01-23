@@ -1,0 +1,11 @@
+<img class="portada" src="https://media.vozpopuli.com/2022/04/Mineria-en-literatura-editorial.jpg" alt="">
+
+<div class="newbookdiv">
+    <input type="text" value="Título" #titulo>
+    <input type="text" value="Autor" #autor>
+    <input type="text" value="Url Imagen Portada" #portada>
+
+    <button type="button" (click)="addBook({titulo: titulo.value, autor: autor.value, portada: portada.value})">Añadir</button>
+</div>
+
+
